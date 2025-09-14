@@ -153,9 +153,9 @@ scene along the ray through each pixel.](images/sphere-packing-normal.png)
 In this assignment you will implement core routines for casting rays into a 3D
 and collect "hit" information where they intersect 3D objects.
 
-## Whitelist
 
-This assignment uses the [Eigen](https://eigen.tuxfamily.org) for numerical
+
+**Whitelist.** This assignment uses the [Eigen](https://eigen.tuxfamily.org) for numerical
 linear algebra. This library is used in both professional and academic numerical
 computing. We will use its `Eigen::Vector3d` as a double-precision 3D vector
 class to store <img src="/tex/244be3c7db382d3e1400c7c4caa1023a.svg?invert_in_darkmode&sanitize=true" align=middle width=41.02358204999999pt height=14.15524440000002pt/> data for 3D points and 3D vectors. You can add (`+`)
